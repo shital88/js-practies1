@@ -29,3 +29,28 @@ let myObj={
 const myFunction = function(){
     console.log("Hello World")
 }
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive), heap(non-primitive)
+
+let myYoutubrname="hitesh"
+
+let anotherName=myYoutubrname
+anotherName="shital"
+
+console.log(myYoutubrname);
+console.log(anotherName);
+
+let userOne={
+    email:"shital@google.com",
+    upi:"user@bl"
+}
+let userTwo=userOne
+
+userTwo.email="shital@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
